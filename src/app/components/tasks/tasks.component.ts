@@ -3,6 +3,7 @@ import {TASKS} from '../../mock-tasks';
 //importamos la interface
 import {Task} from '../../Task';
 
+
 @Component({
   selector: 'app-tasks',
   templateUrl: './tasks.component.html',
