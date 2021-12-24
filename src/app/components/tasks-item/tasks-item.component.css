@@ -5,7 +5,7 @@
     cursor: pointer;
 }
 .task.reminder{
-    border: 5px solid green;
+    border-left: 5px solid blue;
 }
 .task h3{
     display: flex;

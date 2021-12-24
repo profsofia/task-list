@@ -1,9 +1,10 @@
     <header>
         <h1>Task Lists</h1>
         <app-boton-tasks 
-        color="green" 
-        text="Add Task"
+        color="{{ showAddTask ? 'red' : 'green' }}" 
+        text="{{ showAddTask ? 'close' : 'add'  }}"
         (btnClick)="toggleAddTask()"
+        *ngIf="hasRoute('/')"
         >
     
     </app-boton-tasks>
